@@ -1,0 +1,38 @@
+/*珠宝身份证：查询*/
+.userid-check{
+	padding:4% 0%;
+	background-color: #505E70;
+}
+.userid-check .col-sm-4,
+.userid-check .col-sm-6{
+	padding:0;
+}
+.userid-check .colbt{
+	font-size: 25px;
+	color: #fff;
+}
+.userid-check input[type="text"]{
+	width:70%;
+	display:inline-block;
+}
+.userid-check input[type="submit"]{
+	width:20%;
+	display:inline-block;
+	background-color: #DDD;
+}
+@media (max-width: 768px) {
+	.marginauto{
+		padding-left: 10%;
+	}
+}
+/*end 珠宝身份证：查询*/
+
+/*珠宝身份证样本：*/
+.userid{
+	padding:5% 3%;
+}
+.userid h2{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+/*end 珠宝身份证样本：*/

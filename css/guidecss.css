@@ -1,0 +1,163 @@
+
+.navbar .container .nav .xiangdao a{
+	margin-left: 15px;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	text-align: center;
+	line-height: 50px;
+	background-color: #999999;
+	color: #ffffff;
+}
+h3{
+	margin-top: 8%;
+}
+.guidebti{
+	margin-top: 3%;
+	margin-left: 26%;
+}
+.guidemain{
+	margin-top: 50px;
+}
+.guideheight .fade{
+	height: 900px;
+}
+.row .txtwb .danjiagao{
+	height: 1650px;
+}
+.panel-group{
+	overflow: auto;
+}
+.leftMenu{
+	margin:10px;margin-top:5px;border: none;
+}
+.leftMenu .panel-heading{
+	background-color: #ffffff;
+	font-size:14px;
+	padding-left:20px;
+	height:36px;
+	line-height:36px;
+	color: #777777;
+	position:relative;
+	cursor:pointer;
+	border-radius: 3px;
+	border-bottom: 1px solid #eeeeee;
+}
+.leftMenu .panel-heading span{
+	position:absolute;
+	right:10px;
+	top:12px;
+}
+.list-group li{
+	padding-left: 20%;
+	border-color: #f0f0f0;
+}
+.leftMenu .list-group-item:hover{
+	background:#f6f6f6;
+	cursor:pointer;
+}
+.panel-group .panel .panel-collapse .list-group .active{
+	border-radius: 5px;
+	background-color: #f0f0f0;
+	border-color: #dddddd;
+	color: #2890e2;
+}
+.txtwb{
+	padding-top:3%;
+}
+.txtwb p{
+	font-size:16px;
+	color:#666666;
+	text-indent: 2em;
+}
+
+/*三级四级菜单导航*/
+.list-group .duojicd{
+	padding: 0;
+}
+.list-group .duojicd .leftMenu{
+	margin: 0;
+	background: inherit;
+	box-shadow: none;
+	border-radius: 0;
+}
+.sanjicd{
+	padding: 10px 15px 10px 20%;
+}
+.sanjicd span{
+	position: absolute;
+    right: 15px;
+    top: 12px;
+}
+.duojicd .sijicd li{
+	background: inherit;
+	color: #333333;
+	padding-left: 30%;
+	border-top: 1px solid #e5e5e5 !important ;
+}
+.duojicd .sijicd .active{
+	background:#f6f6f6 !important;
+	border-color: #e5e5e5 !important;
+	color: #07ad34 !important;
+}
+
+
+
+/*表格垂直居中*/
+.table .czjz,.vermid .table td{
+	vertical-align: middle;
+}
+/*圆 带颜色*/
+.yuan{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.hongyuan{
+	background: #ff1100;
+}
+.huiyuan{
+	background: #9e9e9e;
+}
+.lvyuan{
+	background: #0ec116;
+}
+.hangyuan{
+	background: #ff9800;
+}
+.row .txtwb .txtgao{
+	height: 1900px;
+}
+
+
+/*身份证向导*/
+#sfztxt12{
+	height: 5000px;
+}
+#sfztxt12 table tr td{
+	vertical-align: middle;
+}
+#sfztxt12 table tr th:nth-child(2),#sfztxt12 table tr td:nth-child(2){
+	width: 30%;
+}
+/*产品规范*/
+.guideheight .cpyxjz{
+	height: 6350px;
+}
+.guideheight .cpyxtxt{
+	height: 4250px;
+}
+.cpyxtxt img , .cpyxjz img{
+	width: 230px;
+	margin-left: 32px;
+	margin-bottom: 8%;
+}
+
+
+/*借贷向导*/
+.jddhtu{
+	width: 500px;
+	margin-top: 80px;
+}

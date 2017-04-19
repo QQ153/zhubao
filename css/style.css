@@ -1,0 +1,228 @@
+BAA首页轮播*/
+.BAAindex-slide{
+	
+}
+.BAAindex-slide .carousel-inner .slide-img{
+	height: 560px;
+	width:100%;
+}
+.BAAindex-slide .slide-left{
+	width:200px;
+	height: 200px;
+	display: inline-block;	
+}
+.BAAindex-slide h1{
+
+}
+.BAAindex-slide p{
+	
+}
+.BAAindex-slide .read-more{
+	margin-bottom: 20px;
+	padding:10px 20px;
+	font-size: 18px;
+	color: #2DA2F1;
+	border:2px solid #2DA2F1;
+	border-radius:3px;
+	display: inline-block;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+.BAAindex-slide .read-more span{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.BAAindex-slide .read-more span:after{
+	content: ">>";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.BAAindex-slide .read-more:hover{
+	border-color: transparent;
+}
+.BAAindex-slide .read-more:hover span{	
+	padding-right: 25px;
+}
+.BAAindex-slide .read-more:hover span:after{	
+	opacity: 1;
+	right: 0;
+}
+/*end BAA首页轮播*/
+
+/*视频库*/
+.video-main{
+	background-image: url("../img/BAA.jpg");
+	padding: 50px 0;
+	height: 30%;
+}
+.video-main .video-box video{
+	width: 100%;
+}
+.video-main .row{
+	background-color: #1A1718;
+}
+.video-main .video-text{
+    display: inline-block;    
+    width: 100%;
+    height: 400px;
+    font-size: 16px;
+    background: rgb(26,23,24);
+    text-align: center;    
+}
+.video-main .video-text h3 {
+    color: #fefefe;
+    border-bottom: 2px solid #006600;
+    margin: 0 auto 15px auto;
+    padding: 10px 0 8px 0;
+    width: 90%;
+}
+.video-main .video-list{
+	list-style:none; 
+	padding: 0;
+}
+.video-main .video-list li {
+    line-height: 40px;
+    border-bottom: 1px solid rgb(26,23,24);
+    color: #fefefe;
+    cursor: pointer;
+    padding: 0 15px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+.video-main .video-list li:hover{
+	background: rgb(47,47,47);
+    color: #006600!important;
+}
+.video-main .on {
+    background: rgb(47,47,47);
+    color: #006600!important;
+}
+/*end 视频库*/
+
+
+/*BAA进程*/
+.BAA-progress{
+	padding-top:30px;
+	padding-bottom:50px;
+}
+.BAA-progress .title{
+	padding:15px  25px;
+	margin:50px 0;
+	font-size:30px;
+	color:#fff;
+	display:inline-block;
+	background:#ffa21d;
+}
+.BAA-progress .pro-border{
+    padding: 15px 0px;
+    margin-bottom: 30px;
+	border: 1px solid #ffa21d;
+    text-align: center;
+    border-radius: 5px;
+}
+.BAA-progress .first-p{
+	line-height:40px;
+	font-size:18px;	
+}
+.text-yel{
+	color:#ff6c00;
+}
+.BAA-progress .two-p a{
+	background:#ffa21d;
+	padding:5px 15px;
+	color:#fff
+}
+.BAA-progress .three-p{
+	line-height:40px;
+	font-size:18px;	
+}
+.text-ddd{
+	color: #ddd;
+}
+/*end BAA进程*/
+
+/*BAA广州（华林）珠宝商圈孵化基地*/
+.BAA-base img{
+	margin-bottom: 30px;
+}
+/*end BAA广州（华林）珠宝商圈孵化基地*/
+
+/*查看更多*/
+.check-more a{
+	width:50%;
+	margin:40px;
+	display:inline-block;
+	line-height:40px;
+	border:1px solid #ddd;
+	color:#333;
+	border-radius: 3px;
+}
+/*end 查看更多
+
+/*关于我们*/
+.BAA-aboutas{}
+#collapseOne p,
+#collapseTwo p,
+#collapseThree p,
+#collapseFour p,
+#collapseFive p,
+#collapseSix p,
+#collapseTen p,
+#collapseEleven p{
+	text-indent: 2em;
+}
+#collapseSeven .row{
+	margin-bottom: 30px;
+}
+#collapseEight img{
+	margin-bottom: 30px;
+}
+#collapseNine .row{
+	margin-bottom: 30px;
+}
+#collapseNine a{
+	display:inline-block;
+	border:1px solid #ddd;
+	padding:0 10px;
+	line-height:30px;
+	margin:0 15px 15px 0
+}
+#collapseTwelve span{
+	margin-bottom: 30px;
+}
+#collapseTwelve .span1{
+	display:inline-block;
+	width:100px;
+	padding:10px 0;
+	background:#f60;
+	color:#fff;
+	text-align:center;
+	border-radius:3px;
+	font-size:18px;
+}
+#collapseTwelve .span2{
+	width: 100%;
+	display:inline-block;
+	padding:10px 0;
+	color:#f60;
+	text-align:center;
+	font-size:14px;
+	border:1px solid #2a8aff;
+}
+#collapseTwelve .twelve-div p{
+	font-size: 20px;
+	color: #333;
+}
+/*end 关于我们*/
+
+/*折叠面板 鼠标形状*/
+.cur{
+	cursor: pointer;
+}
+/*end 折叠面板 鼠标形状*/

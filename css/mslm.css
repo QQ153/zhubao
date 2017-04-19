@@ -1,0 +1,189 @@
+/*BAA国际珠宝市值买手均价评估联盟*/
+.mslm-abox{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.mslm-abox p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.mslm-abox a {
+    display: inline-block;
+    border: 1px solid #6B7DA5;
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.mslm-abox a:hover{
+	color:#fff;
+	background-color: #6B7DA5;
+}
+/*end BAA国际珠宝市值买手均价评估联盟*/
+
+/*评估总流程图*/
+.mslm-flowchart h1{
+	padding-bottom: 3%;
+}
+.mslm-flowchart{
+	padding: 5% 0;
+	background-image: url("../img/LIANMENG_02.png");
+	background-repeat: no-repeat;
+	background-size: 100% 120%;
+}
+/*end 评估总流程图*/
+
+
+/*买手（评手）权重资质*/
+.mslm-certifi{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.mslm-certifi .col-md-3{
+	padding-bottom: 4%;
+}
+.mslm-certifi h1{
+	padding-bottom: 5%;
+}
+.mslm-certifi .certifi-head{
+	margin:0 15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border:1px solid #6b7da5;
+	border-radius: 5px;
+	font-size: 25px;
+	color: #6b7da5;
+}
+.mslm-certifi img{
+	margin:10px 0;
+}
+.mslm-certifi .certifi-body{
+	font-size: 16px;
+	height: 167px;
+	margin:0 15px;
+	padding:20px 8px 0;
+	border:1px solid #6b7da5;
+	border-radius: 5px;
+}
+.mslm-certifi .certifi-body span{}
+.mslm-certifi .certifi-article{
+	margin:0 15px;
+	padding:25px;
+	border:1px dashed #6b7da5;
+	border-radius: 5px;
+}
+/*end 买手（评手）权重资质*/
+
+
+/*买手（评手）出价与市值均价*/
+.mslm-bull h1{
+	padding-bottom: 3%;
+}
+.mslm-bull{
+	padding: 5% 0;
+	background-image: url("../img/LIANMENG_04.png");
+	background-repeat: no-repeat;
+	background-size: 100% 120%;
+}
+/*end 买手（评手）出价与市值均价*/
+
+/*BBA珠宝身份证*/
+.mslm-BAAid{
+	padding-top: 5%;
+	padding-bottom: 5%;	
+}
+.mslm-BAAid h3{
+	padding:2% 0;
+	color: #666;
+}
+.mslm-BAAid img{
+	margin-bottom: 5%;
+}
+/*end BBA珠宝身份证*/
+
+/*BAA珠宝市值均价评估*/
+.mslm-averprice{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-image: url("../img/LIANMENG_06.jpg");
+}
+.mslm-averprice h1{
+	padding-bottom: 3%;
+}
+.mslm-averprice p{
+	font-size: 20px;
+}
+.mslm-averprice .row{
+	margin-bottom: 2%;
+	border: 1px solid #6B7DA5;
+	border-radius: 5px;
+}
+.mslm-averprice .averprice-box{
+	padding:10px 0;
+	border-left:1px solid #6B7DA5;
+}
+.fubt{
+		font-size: 28px;
+		margin-top: 15%;
+	}
+/*end BAA珠宝市值均价评估*/
+
+/*BAA买手（评手）会员收益*/
+.mslm-memben{
+	padding-top:5%;
+	padding-bottom: 5%;
+}
+.mslm-memben h1{
+	padding-bottom: 2%;
+}
+.mslm-memben p{
+	padding-bottom: 15px;
+	font-size: 18px;
+	color: #666;
+}
+/*end BAA买手（评手）会员收益*/
+
+/*查看更多明细*/
+.mslm-moredetails{
+	padding:5% 0;
+	background-color: #ddd;
+}
+/*end 查看更多明细*/
+@media (max-width: 992px) {
+	h1{
+		font-size: 20px;
+	}
+	* p{
+		font-size: 1em;
+	}
+	.mslm-certifi .col-md-3{
+		padding-bottom: 20%;
+	}
+	.mslm-certifi .certifi-body {
+	    height: 100px;
+	}
+	.mslm-certifi .certifi-head {
+	    font-size: 20px;
+	}
+	.mslm-BAAid h3 {
+		padding: 2% 3%;
+	    font-size: 16px;
+	}
+	.fubt{
+		margin-top: 5%;
+		font-size: 18px;
+	}
+	.borbot{
+		border-bottom:1px solid #6B7DA5;
+	}
+	.mslm-averprice p{
+		font-size: 14px;
+	}
+	.mslm-averprice .averprice-box{
+		border-left:none;
+	}
+}
+
